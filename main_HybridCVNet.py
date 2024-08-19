@@ -43,14 +43,14 @@ transformer_layers = 8
 mlp_head_units = [2048, 1024]  # Size of the dense layers
 
 
-"""## Implementing Multilayer Perceptron"""
+# Implementing Multilayer Perceptron
 def cmplx_multilayer_perceptron(x, hidden_units, dropout_rate):
     for units in hidden_units:
         x = ComplexDense(units, activation=cart_gelu)(x)
         x = ComplexDropout(dropout_rate)(x)
     return x
 
-"""## Implementing patch creation as a layer"""
+# Implementing patch creation as a layer
 class Patches(layers.Layer):
     def __init__(self, patch_size):
         super(Patches, self).__init__()
@@ -70,7 +70,7 @@ class Patches(layers.Layer):
         return patches
 
 
-"""## Implement the Patch Encoding Layer"""
+# Implement the Patch Encoding Layer
 class PatchEncoder(layers.Layer):
     def __init__(self, num_patches, projection_dim):
         super(PatchEncoder, self).__init__()
@@ -145,7 +145,7 @@ def HybridCVNet():
 
     return model
 
-"""## Compile, Train, and Evaluate the model"""
+# Compile, Train, and Evaluate the model
 model = HybridCVNet()
 model.summary()
 
@@ -175,7 +175,6 @@ each_acc, aa = AA_andEachClassAccuracy(confusion)
 print('Overall Accuracy =', format(oa*100, ".2f"), "%")
 print('Average Accuracy =', format(aa*100, ".2f"), "%")
 print('kappa index =', format(oa*100, ".2f"))
-
 
 
 ###############################################################################
