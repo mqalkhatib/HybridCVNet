@@ -1,5 +1,5 @@
 # HybridCVNet
-This is an implementation of "PolSAR Image Classification using a Hybrid Complex-Valued Network (HybridCVNet)" Accepted for Publication on IEEE-GRS.
+This is an implementation of "PolSAR Image Classification using a Hybrid Complex-Valued Network (HybridCVNet)" Accepted for Publication on IEEE-GRSL.
 the paper can be accessed through:
 https://ieeexplore.ieee.org/document/10693615
 
