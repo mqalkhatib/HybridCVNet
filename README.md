@@ -1,7 +1,6 @@
 # HybridCVNet
 This is an implementation of "PolSAR Image Classification using a Hybrid Complex-Valued Network (HybridCVNet)" Accepted for Publication on IEEE-GRSL.
-the paper can be accessed through:
-https://ieeexplore.ieee.org/document/10693615
+The paper can be accessed through: https://ieeexplore.ieee.org/document/10693615
 
 ![fig1](https://github.com/user-attachments/assets/85e6862c-2a8d-41af-885c-e7a415cbaabd)
 
@@ -14,7 +13,7 @@ https://github.com/mqalkhatib/SDF2Net/tree/main/Datasets/Flevoland
 Python 3.9.18, Tensorflow (and Keras) 2.10.0, cvnn 2.0, Tensorflow Probability 0.18.0
 
 # Results
-o quantitatively measure the proposed HybridCVNet model, three evaluation metrics are employed to verify the effectiveness of the algorithm, including Overall Accuracy (OA), Average Accuracy (AA) and Cohen's Kappa (k). Also, Each class accuracy has been reported
+To quantitatively measure the proposed HybridCVNet model, three evaluation metrics are employed to verify the effectiveness of the algorithm, Overall Accuracy (OA), Average Accuracy (AA) and Cohen's Kappa (k). Also, Each class accuracy has been reported
 ![image](https://github.com/user-attachments/assets/ac0ac360-86db-4f3c-8b6c-e45683149e07)
 
 Model was qualitatively evaluated by visually comparing the resulting class maps.
