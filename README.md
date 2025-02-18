@@ -20,14 +20,13 @@ Model was qualitatively evaluated by visually comparing the resulting class maps
 ![image](https://github.com/user-attachments/assets/d791c5e0-5007-4f94-9914-2d66cc98d58c)
 
 # Citation
-@ARTICLE{10693615,
-  author={Alkhatib, Mohammed Q.},
-  journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={PolSAR Image Classification Using a Hybrid Complex-Valued Network (HybridCVNet)}, 
+@article{alkhatib2024polsar,
+  title={PolSAR Image Classification using a Hybrid Complex-Valued Network (HybridCVNet)},
+  author={Alkhatib, Mohammed Q},
+  journal={IEEE Geoscience and Remote Sensing Letters},
   year={2024},
-  volume={21},
-  number={},
-  pages={1-5}}
+  publisher={IEEE}
+}
 
 
 Feel free to contact me on: mqalkhatib@ieee.org
